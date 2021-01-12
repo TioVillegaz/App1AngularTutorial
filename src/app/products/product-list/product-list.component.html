@@ -1,0 +1,7 @@
+<div>
+    <h1>Products List</h1>
+    <hr>
+    <div *ngFor="let product of products" class="card mt-3 p-3">
+        <app-product [product]="product"></app-product>
+    </div>
+</div>
